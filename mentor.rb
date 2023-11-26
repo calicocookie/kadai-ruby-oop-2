@@ -14,7 +14,7 @@ end
 
 # 子クラス
 class RailsMentor < Mentor
-  attr_accessor :name
+  #attr_accessor :name #クラス定義で継承できる変数ですので、同名の継承先のクラスには記載不要
 
   def initialize(name)
     self.name = name
@@ -32,5 +32,5 @@ akaide = RailsMentor.new('赤出')
 
 
 # インスタンスの使用
-puts kirameki.job
-puts akaide.job
+print kirameki.job
+print akaide.job
