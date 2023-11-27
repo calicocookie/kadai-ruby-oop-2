@@ -32,5 +32,5 @@ akaide = RailsMentor.new('赤出')
 
 
 # インスタンスの使用
-print kirameki.job
-print akaide.job
+kirameki.job
+akaide.job
